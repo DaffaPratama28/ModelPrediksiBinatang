@@ -32,7 +32,7 @@ def yes_no_to_int(value):
         return 0
 
 # Membuat antarmuka input di Streamlit
-st.title('Prediksi Spesies Berdasarkan Karakteristik')
+st.title('Prediksi Tipe Kelas Hewan Berdasarkan Karakteristik')
 
 # Menampilkan form input untuk setiap kolom dengan pilihan 'Ya' dan 'Tidak'
 hair = st.selectbox('Apakah hewan ini memiliki rambut?', ['Tidak', 'Ya'])
